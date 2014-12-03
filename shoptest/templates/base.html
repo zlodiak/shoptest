@@ -1,0 +1,36 @@
+{% load staticfiles %}
+{% load shop_tags %}
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <!--<link rel="icon" href="images/favicon.ico" type="image/x-icon" />-->
+
+        <title>{% block title %}This is my new project home page{% endblock title %}</title>
+
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}" />  
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top width1000" role="navigation">
+        	<a href="{% url 'index'%}">go to index page</a><hr>
+            <a href="/shop/products/">go to shop page</a><hr>
+        	<a href="{% url 'custom_products' %}">go to custom shop page</a><hr>
+        	<a href="{% url 'contacts' %}">go to contacts</a><hr>
+
+            <br>
+            <br>
+
+        </nav>   
+
+        <div class="container content_area width1000">
+            {% block content %}
+            {% endblock content %}
+        </div>        
+
+        <div class="footer footer_area width1000">
+            <div class="copyright">© Сергей Калинин 2014</div>
+        </div>
+    </body>
+</html>
+

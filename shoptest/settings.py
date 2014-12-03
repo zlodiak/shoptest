@@ -38,6 +38,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     'shop',
+    'shoptest',
+    'shop.addressmodel'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -52,6 +54,16 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'shoptest.urls'
 
 WSGI_APPLICATION = 'shoptest.wsgi.application'
+
+STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'shoptest', 'static'),
+)
+SITE_ID = 1
 
 
 # Database
@@ -82,3 +94,29 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'shoptest', 'templates'),
+)
+
+
+
+ALLOWED_HOSTS = ['127.0.0.1:8000']
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'debug.log'),
+        },
+    },
+    'loggers': {
+        'django.request': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
