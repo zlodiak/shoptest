@@ -30,3 +30,659 @@ Traceback (most recent call last):
     "in the template." % node)
 TemplateSyntaxError: <ExtendsNode: extends "base.html"> must be the first tag in the template.
 Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/views.py", line 16, in index
+    return HttpResponse(t.render(c))
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 123, in render
+    return compiled_parent._render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/core.py", line 106, in render
+    return self.render_tag(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/classytags/helpers.py", line 78, in render_tag
+    data = self.get_context(context, **kwargs)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/shop/templatetags/shop_tags.py", line 24, in get_context
+    request = context['request']
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
+    raise KeyError(key)
+KeyError: 'request'

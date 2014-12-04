@@ -5,5 +5,25 @@
 {% block title %}contacts{% endblock title %}
 
 {% block content %}
-	{% products %}
+	<table>
+	{% for object in object_list %}
+		<tr>
+			<td>
+				<a href="{% url 'product_detail' object.slug %}">{{object.get_name}}</a>
+			</td>
+
+			<td>
+				{{object.unit_price}}
+			</td>
+
+			<td>
+				{% if object.category %}
+					{{object.category.name}}<br />
+				{% else %}
+					(Product is at root category)<br />
+				{% endif %}
+			</td>
+		</tr>
+	{% endfor %}
+</table>
 {% endblock content %}

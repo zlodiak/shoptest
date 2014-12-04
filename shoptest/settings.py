@@ -39,7 +39,8 @@ INSTALLED_APPS = (
 
     'shop',
     'shoptest',
-    'shop.addressmodel'
+    'shop.addressmodel',
+    'polymorphic',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -49,6 +50,11 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+)
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.contrib.auth.context_processors.auth',
+    'django.core.context_processors.request',
 )
 
 ROOT_URLCONF = 'shoptest.urls'
@@ -98,6 +104,7 @@ STATIC_URL = '/static/'
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'shoptest', 'templates'),
     os.path.join(BASE_DIR, 'shoptest', 'templates/shoptest'),
+    os.path.join(BASE_DIR, 'app_shop', 'templates/shoptest'),
 )
 
 

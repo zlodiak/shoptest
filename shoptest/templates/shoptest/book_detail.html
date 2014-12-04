@@ -1,1 +1,23 @@
-boook
+bd1_
+<table>
+  <h1>Product detail:</h1>
+  {{object.get_name}}
+
+  {{object.unit_price}}
+
+  {% if object.category %}
+  	{{object.category.name}}
+  {% else %}
+  	(Product is at root category)
+  {% endif %}
+
+
+  <form method="post" action="{% url 'cart' %}">{% csrf_token %}
+	  <input type="hidden" name="add_item_id" value="{{object.pk}}">
+	  <input type="hidden" name="add_item_quantity" value="1">
+	  <input type="submit" value="Add to cart">
+  </form>
+</table>
+
+
+

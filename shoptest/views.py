@@ -3,6 +3,8 @@ from django.http import HttpResponse, HttpResponseRedirect, Http404, HttpRespons
 from django.template import loader, RequestContext
 from django.shortcuts import render, render_to_response
 
+from shoptest.models import Book
+
 
 def index(request):
 	"""
@@ -28,9 +30,10 @@ def custom_products(request):
 	"""
 	handler for custom_products
 	"""		
-	print(12)
 	t = loader.get_template('custom_products.html')
-	c = RequestContext(request, {})	
+	c = RequestContext(request, {
+		'object_list': Book.objects.all(),
+	})	
 	
 	return HttpResponse(t.render(c)) 		
 
