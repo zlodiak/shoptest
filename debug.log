@@ -29,3 +29,4 @@ Traceback (most recent call last):
   File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/base.py", line 308, in extend_nodelist
     "in the template." % node)
 TemplateSyntaxError: <ExtendsNode: extends "base.html"> must be the first tag in the template.
+Not Found: /favicon.ico

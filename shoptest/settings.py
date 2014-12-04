@@ -97,6 +97,7 @@ STATIC_URL = '/static/'
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'shoptest', 'templates'),
+    os.path.join(BASE_DIR, 'shoptest', 'templates/shoptest'),
 )
 
 
