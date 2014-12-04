@@ -686,3 +686,438 @@ Traceback (most recent call last):
   File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/template/context.py", line 56, in __getitem__
     raise KeyError(key)
 KeyError: 'request'
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 5, in <module>
+    admin.site.register(Book, Pencil)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 92, in register
+    admin_class.validate(model)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/polymorphic/base.py", line 246, in __getattribute__
+    return super(PolymorphicModelBase, self).__getattribute__(name)
+AttributeError: type object 'Pencil' has no attribute 'validate'
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 5, in <module>
+    admin.site.register(Book, Pencil)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 92, in register
+    admin_class.validate(model)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/polymorphic/base.py", line 246, in __getattribute__
+    return super(PolymorphicModelBase, self).__getattribute__(name)
+AttributeError: type object 'Pencil' has no attribute 'validate'
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 5, in <module>
+    admin.site.register(Book, Pencil)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 92, in register
+    admin_class.validate(model)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/polymorphic/base.py", line 246, in __getattribute__
+    return super(PolymorphicModelBase, self).__getattribute__(name)
+AttributeError: type object 'Pencil' has no attribute 'validate'
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 5, in <module>
+    admin.site.register(Book, Pencil)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 92, in register
+    admin_class.validate(model)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/polymorphic/base.py", line 246, in __getattribute__
+    return super(PolymorphicModelBase, self).__getattribute__(name)
+AttributeError: type object 'Pencil' has no attribute 'validate'
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 5, in <module>
+    admin.site.register(Book, Pencil)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 92, in register
+    admin_class.validate(model)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/polymorphic/base.py", line 246, in __getattribute__
+    return super(PolymorphicModelBase, self).__getattribute__(name)
+AttributeError: type object 'Pencil' has no attribute 'validate'
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 5, in <module>
+    admin.site.register(Book, Pencil)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 92, in register
+    admin_class.validate(model)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/polymorphic/base.py", line 246, in __getattribute__
+    return super(PolymorphicModelBase, self).__getattribute__(name)
+AttributeError: type object 'Pencil' has no attribute 'validate'
+Internal Server Error: /shop/products/qwewqeqwe/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 7
+SyntaxError: Non-ASCII character '\xd0' in file /home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py on line 7, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 7
+SyntaxError: Non-ASCII character '\xd0' in file /home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py on line 7, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 7
+SyntaxError: Non-ASCII character '\xd0' in file /home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py on line 7, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 7
+SyntaxError: Non-ASCII character '\xd0' in file /home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py on line 7, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 3, in <module>
+    from models import Book, Pencil
+ImportError: cannot import name Pencil
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 10, in <module>
+    admin.site.register(BookAdmin,)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 71, in register
+    for model in model_or_iterable:
+TypeError: 'RenameBaseModelAdminMethods' object is not iterable
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 10, in <module>
+    admin.site.register(BookAdmin)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 71, in register
+    for model in model_or_iterable:
+TypeError: 'RenameBaseModelAdminMethods' object is not iterable
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 10, in <module>
+    admin.site.register(BookAdmin)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 71, in register
+    for model in model_or_iterable:
+TypeError: 'RenameBaseModelAdminMethods' object is not iterable
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 10, in <module>
+    admin.site.register(BookAdmin)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 71, in register
+    for model in model_or_iterable:
+TypeError: 'RenameBaseModelAdminMethods' object is not iterable
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 10, in <module>
+    admin.site.register(BookAdmin)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 71, in register
+    for model in model_or_iterable:
+TypeError: 'RenameBaseModelAdminMethods' object is not iterable
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 10, in <module>
+    admin.site.register(BookAdmin)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 71, in register
+    for model in model_or_iterable:
+TypeError: 'RenameBaseModelAdminMethods' object is not iterable
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 10, in <module>
+    admin.site.register(BookAdmin)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 71, in register
+    for model in model_or_iterable:
+TypeError: 'RenameBaseModelAdminMethods' object is not iterable
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/urls.py", line 4, in <module>
+    admin.autodiscover()
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest/shoptest/admin.py", line 10, in <module>
+    admin.site.register(BookAdmin)
+  File "/home/kalinin/.virtualenvs/shoptest_project/shoptest_env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 71, in register
+    for model in model_or_iterable:
+TypeError: 'RenameBaseModelAdminMethods' object is not iterable

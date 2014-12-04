@@ -10,3 +10,5 @@ class Book(Product):
 
 	class Meta:
 		ordering = ['author']
+
+
